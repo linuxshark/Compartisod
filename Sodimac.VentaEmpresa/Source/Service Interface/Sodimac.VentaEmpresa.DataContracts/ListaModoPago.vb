@@ -1,0 +1,6 @@
+﻿Imports WcfSerialization = System.Runtime.Serialization
+
+<WcfSerialization.CollectionDataContract([Namespace]:="http://Sodimac.VentaEmpresa.Model/2013/DCSodimac")> _
+Public Class ListaModoPago
+    Inherits System.Collections.Generic.List(Of ModoPago)
+End Class

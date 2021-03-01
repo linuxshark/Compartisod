@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSVentaEmpresaCliente" targetNamespace="http://tempuri.org/DSVentaEmpresaCliente.xsd" xmlns:mstns="http://tempuri.org/DSVentaEmpresaCliente.xsd" xmlns="http://tempuri.org/DSVentaEmpresaCliente.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSVentaEmpresaCliente" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSVentaEmpresaCliente" msprop:Generator_UserDSName="DSVentaEmpresaCliente">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VentaEmpresaCliente" msprop:Generator_TableClassName="VentaEmpresaClienteDataTable" msprop:Generator_TableVarName="tableVentaEmpresaCliente" msprop:Generator_TablePropName="VentaEmpresaCliente" msprop:Generator_RowDeletingName="VentaEmpresaClienteRowDeleting" msprop:Generator_RowChangingName="VentaEmpresaClienteRowChanging" msprop:Generator_RowEvHandlerName="VentaEmpresaClienteRowChangeEventHandler" msprop:Generator_RowDeletedName="VentaEmpresaClienteRowDeleted" msprop:Generator_UserTableName="VentaEmpresaCliente" msprop:Generator_RowChangedName="VentaEmpresaClienteRowChanged" msprop:Generator_RowEvArgName="VentaEmpresaClienteRowChangeEvent" msprop:Generator_RowClassName="VentaEmpresaClienteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Ruc" msprop:Generator_ColumnVarNameInTable="columnRuc" msprop:Generator_ColumnPropNameInRow="Ruc" msprop:Generator_ColumnPropNameInTable="RucColumn" msprop:Generator_UserColumnName="Ruc" type="xs:string" minOccurs="0" />
+              <xs:element name="RazonSocial" msprop:Generator_ColumnVarNameInTable="columnRazonSocial" msprop:Generator_ColumnPropNameInRow="RazonSocial" msprop:Generator_ColumnPropNameInTable="RazonSocialColumn" msprop:Generator_UserColumnName="RazonSocial" type="xs:string" minOccurs="0" />
+              <xs:element name="Tiendas" msprop:Generator_ColumnVarNameInTable="columnTiendas" msprop:Generator_ColumnPropNameInRow="Tiendas" msprop:Generator_ColumnPropNameInTable="TiendasColumn" msprop:Generator_UserColumnName="Tiendas" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaContadoSOD" msprop:Generator_ColumnVarNameInTable="columnVentaContadoSOD" msprop:Generator_ColumnPropNameInRow="VentaContadoSOD" msprop:Generator_ColumnPropNameInTable="VentaContadoSODColumn" msprop:Generator_UserColumnName="VentaContadoSOD" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaCreditoSOD" msprop:Generator_ColumnVarNameInTable="columnVentaCreditoSOD" msprop:Generator_ColumnPropNameInRow="VentaCreditoSOD" msprop:Generator_ColumnPropNameInTable="VentaCreditoSODColumn" msprop:Generator_UserColumnName="VentaCreditoSOD" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaSODIMAC" msprop:Generator_ColumnVarNameInTable="columnVentaSODIMAC" msprop:Generator_ColumnPropNameInRow="VentaSODIMAC" msprop:Generator_ColumnPropNameInTable="VentaSODIMACColumn" msprop:Generator_UserColumnName="VentaSODIMAC" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaContadoMAE" msprop:Generator_ColumnVarNameInTable="columnVentaContadoMAE" msprop:Generator_ColumnPropNameInRow="VentaContadoMAE" msprop:Generator_ColumnPropNameInTable="VentaContadoMAEColumn" msprop:Generator_UserColumnName="VentaContadoMAE" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaCreditoMAE" msprop:Generator_ColumnVarNameInTable="columnVentaCreditoMAE" msprop:Generator_ColumnPropNameInRow="VentaCreditoMAE" msprop:Generator_ColumnPropNameInTable="VentaCreditoMAEColumn" msprop:Generator_UserColumnName="VentaCreditoMAE" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaMAESTRO" msprop:Generator_ColumnVarNameInTable="columnVentaMAESTRO" msprop:Generator_ColumnPropNameInRow="VentaMAESTRO" msprop:Generator_ColumnPropNameInTable="VentaMAESTROColumn" msprop:Generator_UserColumnName="VentaMAESTRO" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaSOD_ObraGruesa" msprop:Generator_ColumnVarNameInTable="columnVentaSOD_ObraGruesa" msprop:Generator_ColumnPropNameInRow="VentaSOD_ObraGruesa" msprop:Generator_ColumnPropNameInTable="VentaSOD_ObraGruesaColumn" msprop:Generator_UserColumnName="VentaSOD_ObraGruesa" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaMAE_ObraGruesa" msprop:Generator_ColumnVarNameInTable="columnVentaMAE_ObraGruesa" msprop:Generator_ColumnPropNameInRow="VentaMAE_ObraGruesa" msprop:Generator_ColumnPropNameInTable="VentaMAE_ObraGruesaColumn" msprop:Generator_UserColumnName="VentaMAE_ObraGruesa" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaContadoSODAA" msprop:Generator_ColumnVarNameInTable="columnVentaContadoSODAA" msprop:Generator_ColumnPropNameInRow="VentaContadoSODAA" msprop:Generator_ColumnPropNameInTable="VentaContadoSODAAColumn" msprop:Generator_UserColumnName="VentaContadoSODAA" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaCreditoSODAA" msprop:Generator_ColumnVarNameInTable="columnVentaCreditoSODAA" msprop:Generator_ColumnPropNameInRow="VentaCreditoSODAA" msprop:Generator_ColumnPropNameInTable="VentaCreditoSODAAColumn" msprop:Generator_UserColumnName="VentaCreditoSODAA" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaSodimacAA" msprop:Generator_ColumnVarNameInTable="columnVentaSodimacAA" msprop:Generator_ColumnPropNameInRow="VentaSodimacAA" msprop:Generator_ColumnPropNameInTable="VentaSodimacAAColumn" msprop:Generator_UserColumnName="VentaSodimacAA" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaContadoMAEAA" msprop:Generator_ColumnVarNameInTable="columnVentaContadoMAEAA" msprop:Generator_ColumnPropNameInRow="VentaContadoMAEAA" msprop:Generator_ColumnPropNameInTable="VentaContadoMAEAAColumn" msprop:Generator_UserColumnName="VentaContadoMAEAA" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaCreditoMAEAA" msprop:Generator_ColumnVarNameInTable="columnVentaCreditoMAEAA" msprop:Generator_ColumnPropNameInRow="VentaCreditoMAEAA" msprop:Generator_ColumnPropNameInTable="VentaCreditoMAEAAColumn" msprop:Generator_UserColumnName="VentaCreditoMAEAA" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaMaestroAA" msprop:Generator_ColumnVarNameInTable="columnVentaMaestroAA" msprop:Generator_ColumnPropNameInRow="VentaMaestroAA" msprop:Generator_ColumnPropNameInTable="VentaMaestroAAColumn" msprop:Generator_UserColumnName="VentaMaestroAA" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaSOD_ObraGruesaAA" msprop:Generator_ColumnVarNameInTable="columnVentaSOD_ObraGruesaAA" msprop:Generator_ColumnPropNameInRow="VentaSOD_ObraGruesaAA" msprop:Generator_ColumnPropNameInTable="VentaSOD_ObraGruesaAAColumn" msprop:Generator_UserColumnName="VentaSOD_ObraGruesaAA" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaMAE_ObraGruesaAA" msprop:Generator_ColumnVarNameInTable="columnVentaMAE_ObraGruesaAA" msprop:Generator_ColumnPropNameInRow="VentaMAE_ObraGruesaAA" msprop:Generator_ColumnPropNameInTable="VentaMAE_ObraGruesaAAColumn" msprop:Generator_UserColumnName="VentaMAE_ObraGruesaAA" type="xs:string" minOccurs="0" />
+              <xs:element name="Boletas_SOD" msprop:Generator_ColumnVarNameInTable="columnBoletas_SOD" msprop:Generator_ColumnPropNameInRow="Boletas_SOD" msprop:Generator_ColumnPropNameInTable="Boletas_SODColumn" msprop:Generator_UserColumnName="Boletas_SOD" type="xs:string" minOccurs="0" />
+              <xs:element name="Boletas_AA" msprop:Generator_ColumnVarNameInTable="columnBoletas_AA" msprop:Generator_ColumnPropNameInRow="Boletas_AA" msprop:Generator_ColumnPropNameInTable="Boletas_AAColumn" msprop:Generator_UserColumnName="Boletas_AA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

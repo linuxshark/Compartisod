@@ -1,0 +1,20 @@
+﻿@using Sodimac.VentaEmpresa.Web.Mvc.MvcTreeView.Helpers
+@model Sodimac.VentaEmpresa.Web.Mvc.AccountViewModel
+           
+@if (Model.ListaNodos != null)
+{
+    if (Model.ListaNodos.Count() != 0)
+    {
+        @Html.TreeView(Model.ListaNodos).HtmlAttributes(new { id = "sitemapX", name = "nodoPadre", @class = "filetree2 treeview2-famfamfam treeview2" }).Children(m => m.ChildNodes).ChildrenHtmlAttributes(new { name = "nodoHijo" }).ItemTemplate(
+        @<text><span class="folder">
+            <a style="cursor:pointer;position:relative;left:5px" class="@item.Value"  onclick="getLateralMenu('@Url.Action("PaginaRol_PV_Grilla", "Account")', '@item.Value', '@item.Name');resaltarOpt(true,this);">@item.Name</a>
+        </span>
+        </text>
+        )                             
+    }
+    else
+    {
+        <span>No se cargo correctamente la lista</span>
+    }
+}
+

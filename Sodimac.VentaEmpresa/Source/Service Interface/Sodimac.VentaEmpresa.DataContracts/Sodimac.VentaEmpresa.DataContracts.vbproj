@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{44F4C8FC-B173-41F1-A41A-B3D74C49D4F2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Sodimac.VentaEmpresa.DataContracts</RootNamespace>
+    <AssemblyName>Sodimac.VentaEmpresa.DataContracts</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sodimac.VentaEmpresa.DataContracts.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Sodimac.VentaEmpresa.DataContracts.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>Sodimac.VentaEmpresa.DataContracts.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>Sodimac.VentaEmpresa.DataContracts.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accion.vb" />
+    <Compile Include="Activo.vb" />
+    <Compile Include="Archivo.vb" />
+    <Compile Include="Autorizaciones.vb" />
+    <Compile Include="Año.vb" />
+    <Compile Include="Boleta.vb" />
+    <Compile Include="BusquedaCotizacion.vb" />
+    <Compile Include="CargaMasivaCliente.vb" />
+    <Compile Include="ClienteCartera.vb" />
+    <Compile Include="Cierre.vb" />
+    <Compile Include="ClienteAdjunto.vb" />
+    <Compile Include="Area.vb" />
+    <Compile Include="ClienteCategoria.vb" />
+    <Compile Include="ClienteLineaCredito.vb" />
+    <Compile Include="ClienteModoPagoCombo.vb" />
+    <Compile Include="ClienteSector.vb" />
+    <Compile Include="ClienteTipo.vb" />
+    <Compile Include="ClienteVenta.vb" />
+    <Compile Include="ComisionEscalaDetalle.vb" />
+    <Compile Include="ComisionEscalaTiempoServicio.vb" />
+    <Compile Include="ComisionPeriodo.vb" />
+    <Compile Include="ComisionEscala.vb" />
+    <Compile Include="ComisionBaseEscala.vb" />
+    <Compile Include="ComisionPeriodoDetalle.vb" />
+    <Compile Include="ComisionRepresentanteVenta.vb" />
+    <Compile Include="ClienteContacto.vb" />
+    <Compile Include="ContactoTipo.vb" />
+    <Compile Include="ContactoClase.vb" />
+    <Compile Include="Cargo.vb" />
+    <Compile Include="Cotizacion.vb" />
+    <Compile Include="DescuentoFamilia.vb" />
+    <Compile Include="DescuentoSku.vb" />
+    <Compile Include="DetalleCotizacion.vb" />
+    <Compile Include="Empresa.vb" />
+    <Compile Include="EstadoProveedor.vb" />
+    <Compile Include="Familia.vb" />
+    <Compile Include="Feriados.vb" />
+    <Compile Include="ListaArchivo.vb" />
+    <Compile Include="ListaAutorizaciones.vb" />
+    <Compile Include="ListaAvanceVentas.vb" />
+    <Compile Include="ListaCargaMasivaCliente.vb" />
+    <Compile Include="ListaClienteCartera.vb" />
+    <Compile Include="ListaClienteEstadoLinea.vb" />
+    <Compile Include="ListaClientesSeleccionadas.vb" />
+    <Compile Include="ListaCotizacion.vb" />
+    <Compile Include="ListaDescuentoFamilia.vb" />
+    <Compile Include="ListaDescuentoSku.vb" />
+    <Compile Include="ListaDetalleCotizacion.vb" />
+    <Compile Include="ListaEmpresa.vb" />
+    <Compile Include="ListaErrorCargaMasiva.vb" />
+    <Compile Include="ListaEstado.vb" />
+    <Compile Include="ListaFamilia.vb" />
+    <Compile Include="ListaGrupoClienteMantenimiento.vb" />
+    <Compile Include="GrupoClienteMantenimiento.vb" />
+    <Compile Include="ListaGrupo.vb" />
+    <Compile Include="Grupo.vb" />
+    <Compile Include="ListaLog.vb" />
+    <Compile Include="ListaLogAccion.vb" />
+    <Compile Include="ListaMarca.vb" />
+    <Compile Include="ListaMesPlan.vb" />
+    <Compile Include="ListaModoPago.vb" />
+    <Compile Include="ListaMotivo.vb" />
+    <Compile Include="ListaOrigenAccion.vb" />
+    <Compile Include="ListaParametro.vb" />
+    <Compile Include="ListaPlanTipoRepresentanteVenta.vb" />
+    <Compile Include="ListaProcesoCarga.vb" />
+    <Compile Include="ListaProducto.vb" />
+    <Compile Include="ListaProveedor.vb" />
+    <Compile Include="ListarReprocesoBoletas.vb" />
+    <Compile Include="ListaTipoCaja.vb" />
+    <Compile Include="ListaTipoDocumento.vb" />
+    <Compile Include="ListaTipoRepresentanteVenta.vb" />
+    <Compile Include="Log.vb" />
+    <Compile Include="LogAccion.vb" />
+    <Compile Include="Marca.vb" />
+    <Compile Include="Mes.vb" />
+    <Compile Include="MesPlan.vb" />
+    <Compile Include="ModoPago.vb" />
+    <Compile Include="Motivo.vb" />
+    <Compile Include="OrigenAccion.vb" />
+    <Compile Include="ParametrosJobkardex.vb" />
+    <Compile Include="PlanTipoRepresentanteVenta.vb" />
+    <Compile Include="ProcesoCarga.vb" />
+    <Compile Include="Producto.vb" />
+    <Compile Include="Proveedor.vb" />
+    <Compile Include="ReporteClienteCartera.vb" />
+    <Compile Include="ReporteComparativoAAAC.vb" />
+    <Compile Include="ReporteCotizacion.vb" />
+    <Compile Include="ReporteVentaEmpresa.vb" />
+    <Compile Include="ReportVenta.vb" />
+    <Compile Include="Reproceso.vb" />
+    <Compile Include="ProgramarJob.vb" />
+    <Compile Include="ListaCarteraVenta.vb" />
+    <Compile Include="ListaPlanVentaEmpleado.vb" />
+    <Compile Include="PlanVentaEmpleado.vb" />
+    <Compile Include="ListaSucursalEmpleado.vb" />
+    <Compile Include="Departamento.vb" />
+    <Compile Include="Distrito.vb" />
+    <Compile Include="ListaDepartamento.vb" />
+    <Compile Include="ListaDistrito.vb" />
+    <Compile Include="ListaProvincia.vb" />
+    <Compile Include="ListaSucursalMantenimiento.vb" />
+    <Compile Include="Provincia.vb" />
+    <Compile Include="ReprocesoBoletas.vb" />
+    <Compile Include="SucursalMantenimiento.vb" />
+    <Compile Include="ListaComisionEscalaTiempoServicio.vb" />
+    <Compile Include="ListaPlanVenta.vb" />
+    <Compile Include="ListaSucursalSeleccionadas.vb" />
+    <Compile Include="ListaZonaSucursalMantenimiento.vb" />
+    <Compile Include="PlanVenta.vb" />
+    <Compile Include="TipoCaja.vb" />
+    <Compile Include="TipoDocumento.vb" />
+    <Compile Include="TipoOperacion.vb" />
+    <Compile Include="TipoPerfil.vb" />
+    <Compile Include="TipoRepresentanteVenta.vb" />
+    <Compile Include="VentaEmpresaCliente.vb" />
+    <Compile Include="VentaEmpresaTienda.vb" />
+    <Compile Include="VentaExportar.vb" />
+    <Compile Include="ZonaSucursalMantenimiento.vb" />
+    <Compile Include="ListaZonaMantenimiento.vb" />
+    <Compile Include="ZonaMantenimiento.vb" />
+    <Compile Include="ListaCargo.vb" />
+    <Compile Include="ListaPerfil.vb" />
+    <Compile Include="Perfil.vb" />
+    <Compile Include="Estado.vb" />
+    <Compile Include="ListaClienteAdjunto.vb" />
+    <Compile Include="ListaClienteModoPagoCombo.vb" />
+    <Compile Include="ListaContactoClase.vb" />
+    <Compile Include="ListaContactoTipo.vb" />
+    <Compile Include="Empleado.vb" />
+    <Compile Include="ListaClienteContacto.vb" />
+    <Compile Include="EmpleadoDepartamento.vb" />
+    <Compile Include="EmpleadoCargo.vb" />
+    <Compile Include="EmpleadoDistrito.vb" />
+    <Compile Include="EmpleadoPerfil.vb" />
+    <Compile Include="EmpleadoProvincia.vb" />
+    <Compile Include="ErrorLog.vb" />
+    <Compile Include="ListaClienteCategoria.vb" />
+    <Compile Include="ListaClienteLineaCredito.vb" />
+    <Compile Include="ListaClienteSector.vb" />
+    <Compile Include="ListaClienteTipo.vb" />
+    <Compile Include="ListaClienteVenta.vb" />
+    <Compile Include="ListaComisionBaseEscala.vb" />
+    <Compile Include="ListaComisionEscala.vb" />
+    <Compile Include="ListaComisionEscalaDetalle.vb" />
+    <Compile Include="ListaComisionPeriodo.vb" />
+    <Compile Include="ListaComisionRepresentantesVenta.vb" />
+    <Compile Include="ListaComisionPeriodoDetalle.vb" />
+    <Compile Include="ListaEmpleadoDepartamento.vb" />
+    <Compile Include="ListaEmpleadoCargo.vb" />
+    <Compile Include="ListaEmpleadoDistrito.vb" />
+    <Compile Include="ListaEmpleadoPerfil.vb" />
+    <Compile Include="ListaEmpleadoProvincia.vb" />
+    <Compile Include="ListaNombrePeriodo.vb" />
+    <Compile Include="ListaPagina.vb" />
+    <Compile Include="ListaPaginaRol.vb" />
+    <Compile Include="ListaProcesoEstado.vb" />
+    <Compile Include="ListaRol.vb" />
+    <Compile Include="ListaSucursal.vb" />
+    <Compile Include="ListaTablaGeneral.vb" />
+    <Compile Include="ListaUsuario.vb" />
+    <Compile Include="ListaUsuarioRol.vb" />
+    <Compile Include="ListaVentaCartera.vb" />
+    <Compile Include="ListaEmpleado.vb" />
+    <Compile Include="ListaVentaEmpleado.vb" />
+    <Compile Include="ListaVentaNombreRepresentante.vb" />
+    <Compile Include="ListaZona.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NombrePeriodo.vb" />
+    <Compile Include="Pagina.vb" />
+    <Compile Include="Paginacion.vb" />
+    <Compile Include="PaginaRol.vb" />
+    <Compile Include="Parametro.vb" />
+    <Compile Include="ProcesoEstado.vb" />
+    <Compile Include="Rol.vb" />
+    <Compile Include="Sucursal.vb" />
+    <Compile Include="SucursalEmpleado.vb" />
+    <Compile Include="TablaGeneral.vb" />
+    <Compile Include="TablaGrupo.vb" />
+    <Compile Include="Usuario.vb" />
+    <Compile Include="UsuarioRol.vb" />
+    <Compile Include="VentaCartera.vb" />
+    <Compile Include="VentaEmpleado.vb" />
+    <Compile Include="VentaNombreRepresentante.vb" />
+    <Compile Include="Zona.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Validation\Sodimac.VentaEmpresa.Validation\Sodimac.VentaEmpresa.Validation.vbproj">
+      <Project>{9C6590C7-ADEA-42A4-81EF-E7F6CCD91B38}</Project>
+      <Name>Sodimac.VentaEmpresa.Validation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

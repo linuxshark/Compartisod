@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSReporteTiendaVVEE" targetNamespace="http://tempuri.org/DSReporteTiendaVVEE.xsd" xmlns:mstns="http://tempuri.org/DSReporteTiendaVVEE.xsd" xmlns="http://tempuri.org/DSReporteTiendaVVEE.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSReporteTiendaVVEE" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSReporteTiendaVVEE" msprop:Generator_UserDSName="DSReporteTiendaVVEE">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DSReporteTiendaVVEE" msprop:Generator_TableClassName="DSReporteTiendaVVEEDataTable" msprop:Generator_TableVarName="tableDSReporteTiendaVVEE" msprop:Generator_RowChangedName="DSReporteTiendaVVEERowChanged" msprop:Generator_TablePropName="_DSReporteTiendaVVEE" msprop:Generator_RowDeletingName="DSReporteTiendaVVEERowDeleting" msprop:Generator_RowChangingName="DSReporteTiendaVVEERowChanging" msprop:Generator_RowEvHandlerName="DSReporteTiendaVVEERowChangeEventHandler" msprop:Generator_RowDeletedName="DSReporteTiendaVVEERowDeleted" msprop:Generator_RowClassName="DSReporteTiendaVVEERow" msprop:Generator_UserTableName="DSReporteTiendaVVEE" msprop:Generator_RowEvArgName="DSReporteTiendaVVEERowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CodSucursal" msprop:Generator_ColumnVarNameInTable="columnCodSucursal" msprop:Generator_ColumnPropNameInRow="CodSucursal" msprop:Generator_ColumnPropNameInTable="CodSucursalColumn" msprop:Generator_UserColumnName="CodSucursal" type="xs:string" minOccurs="0" />
+              <xs:element name="NomSucursal" msprop:Generator_ColumnVarNameInTable="columnNomSucursal" msprop:Generator_ColumnPropNameInRow="NomSucursal" msprop:Generator_ColumnPropNameInTable="NomSucursalColumn" msprop:Generator_UserColumnName="NomSucursal" type="xs:string" minOccurs="0" />
+              <xs:element name="Dia" msprop:Generator_ColumnVarNameInTable="columnDia" msprop:Generator_ColumnPropNameInRow="Dia" msprop:Generator_ColumnPropNameInTable="DiaColumn" msprop:Generator_UserColumnName="Dia" type="xs:string" minOccurs="0" />
+              <xs:element name="CodFamilia" msprop:Generator_ColumnVarNameInTable="columnCodFamilia" msprop:Generator_ColumnPropNameInRow="CodFamilia" msprop:Generator_ColumnPropNameInTable="CodFamiliaColumn" msprop:Generator_UserColumnName="CodFamilia" type="xs:string" minOccurs="0" />
+              <xs:element name="NombreFamilia" msprop:Generator_ColumnVarNameInTable="columnNombreFamilia" msprop:Generator_ColumnPropNameInRow="NombreFamilia" msprop:Generator_ColumnPropNameInTable="NombreFamiliaColumn" msprop:Generator_UserColumnName="NombreFamilia" type="xs:string" minOccurs="0" />
+              <xs:element name="Marca" msprop:Generator_ColumnVarNameInTable="columnMarca" msprop:Generator_ColumnPropNameInRow="Marca" msprop:Generator_ColumnPropNameInTable="MarcaColumn" msprop:Generator_UserColumnName="Marca" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaContado" msprop:Generator_ColumnVarNameInTable="columnVentaContado" msprop:Generator_ColumnPropNameInRow="VentaContado" msprop:Generator_ColumnPropNameInTable="VentaContadoColumn" msprop:Generator_UserColumnName="VentaContado" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaCredito" msprop:Generator_ColumnVarNameInTable="columnVentaCredito" msprop:Generator_ColumnPropNameInRow="VentaCredito" msprop:Generator_ColumnPropNameInTable="VentaCreditoColumn" msprop:Generator_UserColumnName="VentaCredito" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaNetaTotal" msprop:Generator_ColumnVarNameInTable="columnVentaNetaTotal" msprop:Generator_ColumnPropNameInRow="VentaNetaTotal" msprop:Generator_ColumnPropNameInTable="VentaNetaTotalColumn" msprop:Generator_UserColumnName="VentaNetaTotal" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaNetaTotalCIA" msprop:Generator_ColumnVarNameInTable="columnVentaNetaTotalCIA" msprop:Generator_ColumnPropNameInRow="VentaNetaTotalCIA" msprop:Generator_ColumnPropNameInTable="VentaNetaTotalCIAColumn" msprop:Generator_UserColumnName="VentaNetaTotalCIA" type="xs:string" minOccurs="0" />
+              <xs:element name="PlanVentaVVEE" msprop:Generator_ColumnVarNameInTable="columnPlanVentaVVEE" msprop:Generator_ColumnPropNameInRow="PlanVentaVVEE" msprop:Generator_ColumnPropNameInTable="PlanVentaVVEEColumn" msprop:Generator_UserColumnName="PlanVentaVVEE" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaContadoAA" msprop:Generator_ColumnVarNameInTable="columnVentaContadoAA" msprop:Generator_ColumnPropNameInRow="VentaContadoAA" msprop:Generator_ColumnPropNameInTable="VentaContadoAAColumn" msprop:Generator_UserColumnName="VentaContadoAA" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaCreditoAA" msprop:Generator_ColumnVarNameInTable="columnVentaCreditoAA" msprop:Generator_ColumnPropNameInRow="VentaCreditoAA" msprop:Generator_ColumnPropNameInTable="VentaCreditoAAColumn" msprop:Generator_UserColumnName="VentaCreditoAA" type="xs:string" minOccurs="0" />
+              <xs:element name="VentaNetaTotalAA" msprop:Generator_ColumnVarNameInTable="columnVentaNetaTotalAA" msprop:Generator_ColumnPropNameInRow="VentaNetaTotalAA" msprop:Generator_ColumnPropNameInTable="VentaNetaTotalAAColumn" msprop:Generator_UserColumnName="VentaNetaTotalAA" type="xs:string" minOccurs="0" />
+              <xs:element name="PlanMargenVVEE" msprop:Generator_ColumnVarNameInTable="columnPlanMargenVVEE" msprop:Generator_ColumnPropNameInRow="PlanMargenVVEE" msprop:Generator_ColumnPropNameInTable="PlanMargenVVEEColumn" msprop:Generator_UserColumnName="PlanMargenVVEE" type="xs:string" minOccurs="0" />
+              <xs:element name="MargenCredito" msprop:Generator_ColumnVarNameInTable="columnMargenCredito" msprop:Generator_ColumnPropNameInRow="MargenCredito" msprop:Generator_ColumnPropNameInTable="MargenCreditoColumn" msprop:Generator_UserColumnName="MargenCredito" type="xs:string" minOccurs="0" />
+              <xs:element name="MargenContado" msprop:Generator_ColumnVarNameInTable="columnMargenContado" msprop:Generator_ColumnPropNameInRow="MargenContado" msprop:Generator_ColumnPropNameInTable="MargenContadoColumn" msprop:Generator_UserColumnName="MargenContado" type="xs:string" minOccurs="0" />
+              <xs:element name="MargenTotal" msprop:Generator_ColumnVarNameInTable="columnMargenTotal" msprop:Generator_ColumnPropNameInRow="MargenTotal" msprop:Generator_ColumnPropNameInTable="MargenTotalColumn" msprop:Generator_UserColumnName="MargenTotal" type="xs:string" minOccurs="0" />
+              <xs:element name="MargenCreditoAA" msprop:Generator_ColumnVarNameInTable="columnMargenCreditoAA" msprop:Generator_ColumnPropNameInRow="MargenCreditoAA" msprop:Generator_ColumnPropNameInTable="MargenCreditoAAColumn" msprop:Generator_UserColumnName="MargenCreditoAA" type="xs:string" minOccurs="0" />
+              <xs:element name="MargenContadoAA" msprop:Generator_ColumnVarNameInTable="columnMargenContadoAA" msprop:Generator_ColumnPropNameInRow="MargenContadoAA" msprop:Generator_ColumnPropNameInTable="MargenContadoAAColumn" msprop:Generator_UserColumnName="MargenContadoAA" type="xs:string" minOccurs="0" />
+              <xs:element name="MargenTotalAA" msprop:Generator_ColumnVarNameInTable="columnMargenTotalAA" msprop:Generator_ColumnPropNameInRow="MargenTotalAA" msprop:Generator_ColumnPropNameInTable="MargenTotalAAColumn" msprop:Generator_UserColumnName="MargenTotalAA" type="xs:string" minOccurs="0" />
+              <xs:element name="TranCredito" msprop:Generator_ColumnVarNameInTable="columnTranCredito" msprop:Generator_ColumnPropNameInRow="TranCredito" msprop:Generator_ColumnPropNameInTable="TranCreditoColumn" msprop:Generator_UserColumnName="TranCredito" type="xs:string" minOccurs="0" />
+              <xs:element name="TranContado" msprop:Generator_ColumnVarNameInTable="columnTranContado" msprop:Generator_ColumnPropNameInRow="TranContado" msprop:Generator_ColumnPropNameInTable="TranContadoColumn" msprop:Generator_UserColumnName="TranContado" type="xs:string" minOccurs="0" />
+              <xs:element name="TranTotal" msprop:Generator_ColumnVarNameInTable="columnTranTotal" msprop:Generator_ColumnPropNameInRow="TranTotal" msprop:Generator_ColumnPropNameInTable="TranTotalColumn" msprop:Generator_UserColumnName="TranTotal" type="xs:string" minOccurs="0" />
+              <xs:element name="TranCreditoAA" msprop:Generator_ColumnVarNameInTable="columnTranCreditoAA" msprop:Generator_ColumnPropNameInRow="TranCreditoAA" msprop:Generator_ColumnPropNameInTable="TranCreditoAAColumn" msprop:Generator_UserColumnName="TranCreditoAA" type="xs:string" minOccurs="0" />
+              <xs:element name="TranContadoAA" msprop:Generator_ColumnVarNameInTable="columnTranContadoAA" msprop:Generator_ColumnPropNameInRow="TranContadoAA" msprop:Generator_ColumnPropNameInTable="TranContadoAAColumn" msprop:Generator_UserColumnName="TranContadoAA" type="xs:string" minOccurs="0" />
+              <xs:element name="TranTotalAA" msprop:Generator_ColumnVarNameInTable="columnTranTotalAA" msprop:Generator_ColumnPropNameInRow="TranTotalAA" msprop:Generator_ColumnPropNameInTable="TranTotalAAColumn" msprop:Generator_UserColumnName="TranTotalAA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

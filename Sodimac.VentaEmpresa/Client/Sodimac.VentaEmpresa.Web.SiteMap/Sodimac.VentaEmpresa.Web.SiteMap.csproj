@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{33DD1E0D-FC39-4766-A515-E327824A64AC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sodimac.VentaEmpresa.Web.SiteMap</RootNamespace>
+    <AssemblyName>MvcSiteMapProvider</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Abstractions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AclModuleNotSupportedException.cs" />
+    <Compile Include="AmbiguousControllerException.cs" />
+    <Compile Include="AuthorizeAttributeAclModule.cs" />
+    <Compile Include="ChangeFrequency.cs" />
+    <Compile Include="ControllerExtensions.cs" />
+    <Compile Include="DefaultAclModule.cs" />
+    <Compile Include="DefaultActionMethodParameterResolver.cs" />
+    <Compile Include="DefaultControllerTypeResolver.cs" />
+    <Compile Include="DefaultNodeKeyGenerator.cs" />
+    <Compile Include="DefaultSiteMapNodeUrlResolver.cs" />
+    <Compile Include="DefaultSiteMapNodeVisibilityProvider.cs" />
+    <Compile Include="DefaultSiteMapProvider.cs" />
+    <Compile Include="DefaultSiteMapProviderEventHandler.cs" />
+    <Compile Include="Extensibility\CacheDescription.cs" />
+    <Compile Include="Extensibility\DynamicNode.cs" />
+    <Compile Include="Extensibility\DynamicNodeProviderBase.cs" />
+    <Compile Include="Extensibility\IAclModule.cs" />
+    <Compile Include="Extensibility\IActionMethodParameterResolver.cs" />
+    <Compile Include="Extensibility\IControllerTypeResolver.cs" />
+    <Compile Include="Extensibility\IDynamicNodeProvider.cs" />
+    <Compile Include="Extensibility\INodeKeyGenerator.cs" />
+    <Compile Include="Extensibility\ISiteMapNodeUrlResolver.cs" />
+    <Compile Include="Extensibility\ISiteMapNodeVisibilityProvider.cs" />
+    <Compile Include="Extensibility\ISiteMapProviderEventHandler.cs" />
+    <Compile Include="External\AuthorizeAttributeBuilder.cs" />
+    <Compile Include="External\HttpContext2.cs" />
+    <Compile Include="External\HttpRequest2.cs" />
+    <Compile Include="External\IAuthorizeAttribute.cs" />
+    <Compile Include="External\InternalAuthorize.cs" />
+    <Compile Include="External\ObjectCopier.cs" />
+    <Compile Include="External\ThreadSafeDictionary.cs" />
+    <Compile Include="External\UrlUtilities.cs" />
+    <Compile Include="FilteredSiteMapNodeVisibilityProvider.cs" />
+    <Compile Include="Filters\RedirectAuthenticatedRequests.cs" />
+    <Compile Include="Filters\SiteMapPreserveRouteDataAttribute.cs" />
+    <Compile Include="Filters\SiteMapTitleAttribute.cs" />
+    <Compile Include="Filters\SiteMapTitleTarget.cs" />
+    <Compile Include="IMvcSiteMapNodeAttribute.cs" />
+    <Compile Include="IMvcSiteMapNodeAttributeDefinition.cs" />
+    <Compile Include="Internal\MvcSiteMapProviderViewEngine.cs" />
+    <Compile Include="Internal\MvcSiteMapProviderViewEngineVirtualFile.cs" />
+    <Compile Include="Internal\MvcSiteMapProviderViewEngineVirtualPathProvider.cs" />
+    <Compile Include="MvcSiteMapException.cs" />
+    <Compile Include="MvcSiteMapNode.cs" />
+    <Compile Include="MvcSiteMapNodeAttribute.cs" />
+    <Compile Include="MvcSiteMapNodeAttributeDefinitionForAction.cs" />
+    <Compile Include="MvcSiteMapNodeAttributeDefinitionForController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Messages.Designer.cs" />
+    <Compile Include="SiteMapNodeExtensions.cs" />
+    <Compile Include="SiteMapProviderEventContext.cs" />
+    <Compile Include="UnknownSiteMapProviderException.cs" />
+    <Compile Include="UpdatePriority.cs" />
+    <Compile Include="UrlResolverException.cs" />
+    <Compile Include="Web\Html\HtmlHelperExtensions.cs" />
+    <Compile Include="Web\Html\MenuHelper.cs" />
+    <Compile Include="Web\Html\Models\MenuHelperModel.cs" />
+    <Compile Include="Web\Html\Models\SiteMapHelperModel.cs" />
+    <Compile Include="Web\Html\Models\SiteMapNodeModel.cs" />
+    <Compile Include="Web\Html\Models\SiteMapNodeModelList.cs" />
+    <Compile Include="Web\Html\Models\SiteMapPathHelperModel.cs" />
+    <Compile Include="Web\Html\Models\SiteMapTitleHelperModel.cs" />
+    <Compile Include="Web\Html\MvcSiteMapHtmlHelper.cs" />
+    <Compile Include="Web\Html\SiteMapHelper.cs" />
+    <Compile Include="Web\Html\SiteMapNodeModelMapper.cs" />
+    <Compile Include="Web\Html\SiteMapPathHelper.cs" />
+    <Compile Include="Web\Html\SiteMapTitleHelper.cs" />
+    <Compile Include="Web\ViewDataContainer.cs" />
+    <Compile Include="Web\XmlSiteMapController.cs" />
+    <Compile Include="Web\XmlSiteMapResult.cs" />
+    <Compile Include="XElementExtensions.cs" />
+    <Compile Include="XmlRolesAclModule.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Messages.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web\Html\DisplayTemplates\MenuHelperModel.ascx" />
+    <Content Include="Web\Html\DisplayTemplates\SiteMapHelperModel.ascx" />
+    <Content Include="Web\Html\DisplayTemplates\SiteMapNodeModel.ascx" />
+    <Content Include="Web\Html\DisplayTemplates\SiteMapNodeModelList.ascx" />
+    <Content Include="Web\Html\DisplayTemplates\SiteMapPathHelperModel.ascx" />
+    <Content Include="Web\Html\DisplayTemplates\SiteMapTitleHelperModel.ascx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
